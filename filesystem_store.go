@@ -6,7 +6,6 @@ import (
 
 type FileSystemStore interface {
 	Store
-	MaxLength(int)
 }
 
 // The path argument is the directory where sessions will be saved. If empty
