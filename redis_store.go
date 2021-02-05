@@ -98,3 +98,7 @@ func (c *redisStore) Options(options Options) {
 func (c *redisStore) MaxAge(age int) {
 	c.RediStore.SetMaxAge(age)
 }
+
+func (c *redisStore) MaxLength(l int) {
+	c.RediStore.SetMaxLength(l)
+}

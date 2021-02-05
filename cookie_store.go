@@ -38,3 +38,7 @@ func (c *cookieStore) Options(options Options) {
 func (c *cookieStore) MaxAge(age int) {
 	c.CookieStore.MaxAge(age)
 }
+
+func (c *cookieStore) MaxLength(_ int) {
+	return
+}

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/ipfans/echo-session"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
+	"github.com/zenwerk/echo-session"
 )
 
 func main() {

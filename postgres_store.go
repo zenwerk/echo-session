@@ -34,3 +34,7 @@ func (p *postgresStore) Options(options Options) {
 func (p *postgresStore) MaxAge(age int) {
 	p.PGStore.MaxAge(age)
 }
+
+func (p *postgresStore) MaxLength(l int) {
+	p.PGStore.MaxLength(l)
+}
